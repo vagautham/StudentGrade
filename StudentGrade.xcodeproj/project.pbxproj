@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046A231519B8D4E800C0A681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046A231419B8D4E800C0A681 /* Foundation.framework */; };
+		046A231719B8D4E800C0A681 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046A231619B8D4E800C0A681 /* CoreGraphics.framework */; };
+		046A231919B8D4E800C0A681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046A231819B8D4E800C0A681 /* UIKit.framework */; };
+		046A231B19B8D4E800C0A681 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046A231A19B8D4E800C0A681 /* CoreData.framework */; };
+		046A232119B8D4E800C0A681 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 046A231F19B8D4E800C0A681 /* InfoPlist.strings */; };
+		046A232319B8D4E800C0A681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A232219B8D4E800C0A681 /* main.m */; };
+		046A232719B8D4E800C0A681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A232619B8D4E800C0A681 /* AppDelegate.m */; };
+		046A232A19B8D4E800C0A681 /* StudentGrade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046A232819B8D4E800C0A681 /* StudentGrade.xcdatamodeld */; };
+		046A232C19B8D4E800C0A681 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046A232B19B8D4E800C0A681 /* Images.xcassets */; };
+		046A233319B8D4E800C0A681 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046A233219B8D4E800C0A681 /* XCTest.framework */; };
+		046A233419B8D4E800C0A681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046A231419B8D4E800C0A681 /* Foundation.framework */; };
+		046A233519B8D4E800C0A681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046A231819B8D4E800C0A681 /* UIKit.framework */; };
+		046A233619B8D4E800C0A681 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046A231A19B8D4E800C0A681 /* CoreData.framework */; };
+		046A233E19B8D4E800C0A681 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 046A233C19B8D4E800C0A681 /* InfoPlist.strings */; };
+		046A234019B8D4E800C0A681 /* StudentGradeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A233F19B8D4E800C0A681 /* StudentGradeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046A233719B8D4E800C0A681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046A230919B8D4E800C0A681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046A231019B8D4E800C0A681;
+			remoteInfo = StudentGrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046A231119B8D4E800C0A681 /* StudentGrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentGrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046A231419B8D4E800C0A681 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		046A231619B8D4E800C0A681 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		046A231819B8D4E800C0A681 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		046A231A19B8D4E800C0A681 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		046A231E19B8D4E800C0A681 /* StudentGrade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StudentGrade-Info.plist"; sourceTree = "<group>"; };
+		046A232019B8D4E800C0A681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		046A232219B8D4E800C0A681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046A232419B8D4E800C0A681 /* StudentGrade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudentGrade-Prefix.pch"; sourceTree = "<group>"; };
+		046A232519B8D4E800C0A681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046A232619B8D4E800C0A681 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046A232919B8D4E800C0A681 /* StudentGrade.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentGrade.xcdatamodel; sourceTree = "<group>"; };
+		046A232B19B8D4E800C0A681 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		046A233119B8D4E800C0A681 /* StudentGradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentGradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046A233219B8D4E800C0A681 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		046A233B19B8D4E800C0A681 /* StudentGradeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StudentGradeTests-Info.plist"; sourceTree = "<group>"; };
+		046A233D19B8D4E800C0A681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		046A233F19B8D4E800C0A681 /* StudentGradeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentGradeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046A230E19B8D4E800C0A681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A231719B8D4E800C0A681 /* CoreGraphics.framework in Frameworks */,
+				046A231B19B8D4E800C0A681 /* CoreData.framework in Frameworks */,
+				046A231919B8D4E800C0A681 /* UIKit.framework in Frameworks */,
+				046A231519B8D4E800C0A681 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A232E19B8D4E800C0A681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A233319B8D4E800C0A681 /* XCTest.framework in Frameworks */,
+				046A233619B8D4E800C0A681 /* CoreData.framework in Frameworks */,
+				046A233519B8D4E800C0A681 /* UIKit.framework in Frameworks */,
+				046A233419B8D4E800C0A681 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046A230819B8D4E800C0A681 = {
+			isa = PBXGroup;
+			children = (
+				046A231C19B8D4E800C0A681 /* StudentGrade */,
+				046A233919B8D4E800C0A681 /* StudentGradeTests */,
+				046A231319B8D4E800C0A681 /* Frameworks */,
+				046A231219B8D4E800C0A681 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046A231219B8D4E800C0A681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046A231119B8D4E800C0A681 /* StudentGrade.app */,
+				046A233119B8D4E800C0A681 /* StudentGradeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046A231319B8D4E800C0A681 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046A231419B8D4E800C0A681 /* Foundation.framework */,
+				046A231619B8D4E800C0A681 /* CoreGraphics.framework */,
+				046A231819B8D4E800C0A681 /* UIKit.framework */,
+				046A231A19B8D4E800C0A681 /* CoreData.framework */,
+				046A233219B8D4E800C0A681 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		046A231C19B8D4E800C0A681 /* StudentGrade */ = {
+			isa = PBXGroup;
+			children = (
+				046A232519B8D4E800C0A681 /* AppDelegate.h */,
+				046A232619B8D4E800C0A681 /* AppDelegate.m */,
+				046A232B19B8D4E800C0A681 /* Images.xcassets */,
+				046A232819B8D4E800C0A681 /* StudentGrade.xcdatamodeld */,
+				046A231D19B8D4E800C0A681 /* Supporting Files */,
+			);
+			path = StudentGrade;
+			sourceTree = "<group>";
+		};
+		046A231D19B8D4E800C0A681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046A231E19B8D4E800C0A681 /* StudentGrade-Info.plist */,
+				046A231F19B8D4E800C0A681 /* InfoPlist.strings */,
+				046A232219B8D4E800C0A681 /* main.m */,
+				046A232419B8D4E800C0A681 /* StudentGrade-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046A233919B8D4E800C0A681 /* StudentGradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				046A233F19B8D4E800C0A681 /* StudentGradeTests.m */,
+				046A233A19B8D4E800C0A681 /* Supporting Files */,
+			);
+			path = StudentGradeTests;
+			sourceTree = "<group>";
+		};
+		046A233A19B8D4E800C0A681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046A233B19B8D4E800C0A681 /* StudentGradeTests-Info.plist */,
+				046A233C19B8D4E800C0A681 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046A231019B8D4E800C0A681 /* StudentGrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046A234319B8D4E800C0A681 /* Build configuration list for PBXNativeTarget "StudentGrade" */;
+			buildPhases = (
+				046A230D19B8D4E800C0A681 /* Sources */,
+				046A230E19B8D4E800C0A681 /* Frameworks */,
+				046A230F19B8D4E800C0A681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentGrade;
+			productName = StudentGrade;
+			productReference = 046A231119B8D4E800C0A681 /* StudentGrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046A233019B8D4E800C0A681 /* StudentGradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046A234619B8D4E800C0A681 /* Build configuration list for PBXNativeTarget "StudentGradeTests" */;
+			buildPhases = (
+				046A232D19B8D4E800C0A681 /* Sources */,
+				046A232E19B8D4E800C0A681 /* Frameworks */,
+				046A232F19B8D4E800C0A681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046A233819B8D4E800C0A681 /* PBXTargetDependency */,
+			);
+			name = StudentGradeTests;
+			productName = StudentGradeTests;
+			productReference = 046A233119B8D4E800C0A681 /* StudentGradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046A230919B8D4E800C0A681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Gautham;
+				TargetAttributes = {
+					046A233019B8D4E800C0A681 = {
+						TestTargetID = 046A231019B8D4E800C0A681;
+					};
+				};
+			};
+			buildConfigurationList = 046A230C19B8D4E800C0A681 /* Build configuration list for PBXProject "StudentGrade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 046A230819B8D4E800C0A681;
+			productRefGroup = 046A231219B8D4E800C0A681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046A231019B8D4E800C0A681 /* StudentGrade */,
+				046A233019B8D4E800C0A681 /* StudentGradeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046A230F19B8D4E800C0A681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A232119B8D4E800C0A681 /* InfoPlist.strings in Resources */,
+				046A232C19B8D4E800C0A681 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A232F19B8D4E800C0A681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A233E19B8D4E800C0A681 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046A230D19B8D4E800C0A681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A232A19B8D4E800C0A681 /* StudentGrade.xcdatamodeld in Sources */,
+				046A232719B8D4E800C0A681 /* AppDelegate.m in Sources */,
+				046A232319B8D4E800C0A681 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A232D19B8D4E800C0A681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A234019B8D4E800C0A681 /* StudentGradeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046A233819B8D4E800C0A681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046A231019B8D4E800C0A681 /* StudentGrade */;
+			targetProxy = 046A233719B8D4E800C0A681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046A231F19B8D4E800C0A681 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046A232019B8D4E800C0A681 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		046A233C19B8D4E800C0A681 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046A233D19B8D4E800C0A681 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046A234119B8D4E800C0A681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046A234219B8D4E800C0A681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046A234419B8D4E800C0A681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StudentGrade/StudentGrade-Prefix.pch";
+				INFOPLIST_FILE = "StudentGrade/StudentGrade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		046A234519B8D4E800C0A681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StudentGrade/StudentGrade-Prefix.pch";
+				INFOPLIST_FILE = "StudentGrade/StudentGrade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		046A234719B8D4E800C0A681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StudentGrade.app/StudentGrade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StudentGrade/StudentGrade-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StudentGradeTests/StudentGradeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		046A234819B8D4E800C0A681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StudentGrade.app/StudentGrade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StudentGrade/StudentGrade-Prefix.pch";
+				INFOPLIST_FILE = "StudentGradeTests/StudentGradeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046A230C19B8D4E800C0A681 /* Build configuration list for PBXProject "StudentGrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A234119B8D4E800C0A681 /* Debug */,
+				046A234219B8D4E800C0A681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046A234319B8D4E800C0A681 /* Build configuration list for PBXNativeTarget "StudentGrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A234419B8D4E800C0A681 /* Debug */,
+				046A234519B8D4E800C0A681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046A234619B8D4E800C0A681 /* Build configuration list for PBXNativeTarget "StudentGradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A234719B8D4E800C0A681 /* Debug */,
+				046A234819B8D4E800C0A681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		046A232819B8D4E800C0A681 /* StudentGrade.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				046A232919B8D4E800C0A681 /* StudentGrade.xcdatamodel */,
+			);
+			currentVersion = 046A232919B8D4E800C0A681 /* StudentGrade.xcdatamodel */;
+			path = StudentGrade.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 046A230919B8D4E800C0A681 /* Project object */;
+}
